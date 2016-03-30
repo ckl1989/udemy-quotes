@@ -7,7 +7,7 @@ export default[
         numberOfFollowers: 150,
 
         aboutMe: 'I am a web developer',
-        quotes: [1,2],
+        quotes: [1,2,3],
 
         following: [1],
         followers: [1]
