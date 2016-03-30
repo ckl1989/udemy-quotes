@@ -1,2 +1,4 @@
-<h1> Following </h1>
-{{outlet}}
+<h1>Following</h1>
+{{#each model.users as |user|}}
+  {{list-user user=user}}
+{{/each}}

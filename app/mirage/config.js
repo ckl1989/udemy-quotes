@@ -1,9 +1,17 @@
 export default function() {
 
   // These comments are here to help you get started. Feel free to delete them.
-  this.namespace = 'api';
+    this.namespace = 'api';
 
-  this.get('/users/:id');
+    this.get('/users/:id');
+
+    this.get('/quotes');
+
+    this.get('/quotes/:id');
+
+    this.get('/users');
+
+    this.post('/quotes');
   /*
     Config (with defaults).
 
