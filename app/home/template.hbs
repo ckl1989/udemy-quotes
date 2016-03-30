@@ -1,2 +1,11 @@
-<h1> Home Page </h1>
-{{outlet}}
+ <!--main container -->
+        <div class="container-fluid">
+            <div class="container">
+                <div class="col-sm-8">
+                  {{quotes-update}}
+                  {{quotes-list quotes=model.quotes}}
+                </div>
+                {{profile-details user=model.user}}
+                </div>
+        </div>
+<!--/main container -->
