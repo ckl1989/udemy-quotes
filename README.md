@@ -1,54 +1,26 @@
-# Quotes
+== README
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Quotes - Master Ember.JS by Skillbakery Project
+Twitter clone frontend application
+https://www.udemy.com/master-emberjs/
 
-## Prerequisites
+A web application where users can post quotes for all of their followers to see.
+Users can also see who they are following and who are following them. 
+There is also a hard coded login page. 
 
-You will need the following things properly installed on your computer.
+Username: john@ember.com
+Password: pass
 
-* [Git](http://git-scm.com/)
-* [Node.js](http://nodejs.org/) (with NPM)
-* [Bower](http://bower.io/)
-* [Ember CLI](http://www.ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
+This project is front end only and uses Mirage as a dummy backend to store user and quote data.
 
-## Installation
+This project is intended to exemplify (among other things) the use of dynamic segment routes, components,
+model relationships and RESTAdapter.
 
-* `git clone <repository-url>` this repository
-* change into the new directory
-* `npm install`
-* `bower install`
+Frontend: Ember 2.4.2
 
-## Running / Development
 
-* `ember server`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
 
-### Code Generators
 
-Make use of the many generators for code, try `ember help generate` for more details
+------
+To run server on cloud9 use: Rails use: rails s -p $PORT -b $IP
 
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://www.ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
-# udemy-quotes
